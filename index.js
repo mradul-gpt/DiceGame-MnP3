@@ -14,7 +14,7 @@ if(score1>score2){
 else if(score1===score2){
     document.getElementsByTagName("h1")[0].innerHTML="Its A Draw !";
 }
-else if(score1<score2){
+else{
     document.getElementsByTagName("h1")[0].innerHTML="Player 2 Wins !";
     document.getElementsByTagName("p")[1].innerHTML="Player 2 <img src='images/victory.png'>";
     var obj = document.getElementsByTagName("img")[1];
@@ -41,7 +41,7 @@ else if(score1===5){
 else if(score1===6){
     document.getElementById("d1").src="images/dice6.png";
 }
-ekse{}
+else{}
 
 if(score2===1){
     document.getElementById("d2").src="images/dice1.png";
