@@ -14,7 +14,7 @@ if(score1>score2){
 else if(score1===score2){
     document.getElementsByTagName("h1")[0].innerHTML="Its A Draw !";
 }
-else{
+else if(score1<score2){
     document.getElementsByTagName("h1")[0].innerHTML="Player 2 Wins !";
     document.getElementsByTagName("p")[1].innerHTML="Player 2 <img src='images/victory.png'>";
     var obj = document.getElementsByTagName("img")[1];
