@@ -41,6 +41,7 @@ else if(score1===5){
 else if(score1===6){
     document.getElementById("d1").src="images/dice6.png";
 }
+ekse{}
 
 if(score2===1){
     document.getElementById("d2").src="images/dice1.png";
@@ -60,3 +61,4 @@ document.getElementById("d2").src="images/dice5.png";
 else if(score2===6){
 document.getElementById("d2").src="images/dice6.png";
 }
+else{}
