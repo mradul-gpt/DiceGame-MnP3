@@ -11,16 +11,15 @@ if(score1>score2){
     var obj = document.getElementsByTagName("img")[0];
     obj.setAttribute("style", "height: 50px; position: relative; bottom: 5px;");
 }
-if(score1===score2){
+else if(score1===score2){
     document.getElementsByTagName("h1")[0].innerHTML="Its A Draw !";
 }
-if(score1<score2){
+else if(score1<score2){
     document.getElementsByTagName("h1")[0].innerHTML="Player 2 Wins !";
     document.getElementsByTagName("p")[1].innerHTML="Player 2 <img src='images/victory.png'>";
     var obj = document.getElementsByTagName("img")[1];
     obj.setAttribute("style", "height: 50px; position: relative; bottom: 5px;");
 }
-else{}
 
 //Changing Dice value
 
