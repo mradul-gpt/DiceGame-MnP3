@@ -25,8 +25,19 @@ img{
 }
 
 @media (max-width: 994px){
+    h1{
+        font-size: 9rem;
+        margin-bottom: 17%;
+    }
+    .playground{
+        font-size: 5rem;
+    }
+    h4{
+        padding-top: 10%;
+        font-size: 4rem;
+    }
     .p1{
-        margin: 2% 2% 5% 0;
+        margin: 2% 2% 10% 0;
     }
     img{
         height: 20rem;
